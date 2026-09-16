@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — GO</title>
+<meta name="robots" content="index,follow">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5a5a5a;
+  --accent: #b3261e;
+  --border: #e4e4e4;
+  --card: #f7f7f7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16171a;
+    --fg: #eaeaea;
+    --muted: #a3a3a3;
+    --accent: #ff6b60;
+    --border: #2c2d30;
+    --card: #1f2023;
+  }
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body {
+  margin: 0;
+  padding: 0 16px 64px;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+.wrap { max-width: 760px; margin: 0 auto; }
+header.top {
+  padding: 28px 0 16px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 28px;
+}
+.brand { font-size: 15px; font-weight: 700; letter-spacing: 0.02em; color: var(--muted); text-transform: uppercase; }
+nav.doc-nav { margin-top: 10px; display: flex; gap: 18px; font-size: 15px; }
+nav.doc-nav a { color: var(--muted); text-decoration: none; }
+nav.doc-nav a.active { color: var(--fg); font-weight: 700; border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
+nav.doc-nav a:hover { color: var(--fg); }
+h1 { font-size: 26px; margin: 0 0 4px; }
+h2 { font-size: 20px; margin-top: 40px; border-top: 1px solid var(--border); padding-top: 24px; }
+h3 { font-size: 16px; margin-top: 28px; color: var(--fg); }
+p, li { font-size: 15.5px; color: var(--fg); }
+strong { color: var(--fg); }
+a { color: var(--accent); }
+hr { display: none; }
+table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 14px; }
+th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: top; }
+th { background: var(--card); }
+code { background: var(--card); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+ul, ol { padding-left: 22px; }
+footer.legal-footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="brand">GO 語 — App de estudo de Idiomas</div>
+  <nav class="doc-nav">
+    <a href="privacidade.html" class="active">Política de Privacidade</a>
+    <a href="termos.html">Termos de Uso</a>
+  </nav>
+</header>
+<h1>Política de Privacidade — GO</h1>
+<p><strong>Última atualização:</strong> 15 de setembro de 2026
+<strong>Vigência:</strong> a partir de 15 de setembro de 2026</p>
+<p>Esta Política de Privacidade descreve como são coletados, usados, compartilhados e
+protegidos os dados pessoais dos usuários do aplicativo <strong>GO語 (&quot;GO&quot;, &quot;aplicativo&quot;
+ou &quot;Serviço&quot;)</strong>, um aplicativo de estudo de língua japonesa (preparação para o
+JLPT) com flashcards, missões, ranking, amigos, desafios, minijogos, simulados,
+material de gramática e uma economia interna de moedas virtuais.</p>
+<p>Ao criar uma conta ou usar o GO, você declara que leu e compreendeu esta Política.
+O uso do Serviço também está sujeito aos <a href="termos.html">Termos de Uso</a>.</p>
+<hr>
+<h2>1. Quem é o controlador dos dados</h2>
+<p>O controlador dos dados pessoais tratados pelo GO é:</p>
+<ul>
+<li><strong>Mario Florense Gonçalves Lô</strong>, pessoa física, desenvolvedor do aplicativo.</li>
+<li>Localidade: Jaguariúna, São Paulo, Brasil.</li>
+<li>Contato para assuntos de privacidade: <strong><a href="mailto:mariolodev@gmail.com">mariolodev@gmail.com</a></strong></li>
+</ul>
+<p>Para os fins da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais –
+<strong>LGPD</strong>), o canal acima é o <strong>ponto de contato</strong> para qualquer solicitação
+relacionada a dados pessoais, inclusive as previstas na seção 9.</p>
+<p><strong>Encarregado (DPO):</strong> não há encarregado formalmente indicado; os pedidos
+relacionados a dados pessoais devem ser enviados ao e-mail acima, atendido
+diretamente pelo controlador.</p>
+<hr>
+<h2>2. Dados que tratamos</h2>
+<h3>2.1. Dados que você fornece diretamente</h3>
+<table>
+<thead>
+<tr>
+<th>Dado</th>
+<th>Quando é coletado</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Nome</td>
+<td>Cadastro por e-mail; ou importado do Google no login social</td>
+</tr>
+<tr>
+<td>Endereço de e-mail</td>
+<td>Cadastro / login</td>
+</tr>
+<tr>
+<td>Senha</td>
+<td>Apenas no cadastro por e-mail. A senha é gerenciada pelo <strong>Firebase Authentication (Google)</strong> e <strong>não</strong> é armazenada nem acessível pelo GO</td>
+</tr>
+<tr>
+<td>Foto de perfil</td>
+<td>Importada do Google no login social. O aplicativo <strong>não</strong> permite enviar foto da galeria ou da câmera</td>
+</tr>
+<tr>
+<td>Nome de usuário (@username)</td>
+<td>Definido por você ou gerado automaticamente a partir do nome/e-mail</td>
+</tr>
+<tr>
+<td>Idioma e nível de estudo (ex.: JLPT N5)</td>
+<td>Onboarding e tela de configurações</td>
+</tr>
+</tbody></table>
+<p><strong>Sobre o campo &quot;Telefone&quot;:</strong> o formulário de cadastro por e-mail exibe um campo
+opcional de telefone, mas <strong>o que você digita nele não é enviado ao nosso servidor
+nem armazenado</strong> — o aplicativo não transmite esse dado no cadastro, e o registro
+correspondente no banco de dados permanece vazio. Se passarmos a coletar telefone,
+esta Política será atualizada antes.</p>
+<h3>2.2. Dados do login social (Google)</h3>
+<p>Se você entra com o Google, recebemos do Google seu <strong>nome, e-mail, foto de
+perfil e o identificador da sua conta Google</strong>, conforme as permissões padrão de
+login. Não acessamos seus contatos, agenda, arquivos nem outros dados da sua
+conta Google.</p>
+<h3>2.3. Conteúdo que você cria no aplicativo</h3>
+<ul>
+<li>Baralhos (decks): nome, ícone, cor e configuração de privacidade
+(privado/público), inclusive baralhos gerados a partir de uma função do app
+(por exemplo, o &quot;deck de reforço&quot; criado com as cartas que você errou);</li>
+<li>Cartas/flashcards: frente, verso/tradução, leitura (furigana), romaji, texto de
+dicionário e frases de exemplo;</li>
+<li>Arquivos CSV que você envia para importar baralhos (processados temporariamente
+e apagados ao fim da requisição — ver seção 2.11);</li>
+<li>Comentários e reações em baralhos públicos;</li>
+<li><strong>Denúncias</strong> de baralhos públicos: registramos qual baralho foi denunciado,
+<strong>quem denunciou</strong> e o motivo que você escreveu, para análise da moderação. A
+identidade de quem denuncia <strong>não é exibida</strong> ao dono do baralho nem a outros
+usuários.</li>
+</ul>
+<p>Baralhos marcados como <strong>públicos</strong> e os comentários associados ficam visíveis a
+outros usuários do GO. Nos comentários é exibido o seu <strong>nome de usuário</strong>
+(@username). Em baralhos públicos copiados (&quot;fork&quot;), fica registrado o nome de
+usuário de quem publicou o baralho de origem.</p>
+<h3>2.4. Dados de uso, progresso e desempenho</h3>
+<ul>
+<li>XP, nível, ofensiva diária (streak) e ofensiva máxima;</li>
+<li>Histórico e sessões de estudo (modo, duração, número de cartas revisadas, dias
+estudados);</li>
+<li>Progresso em missões e medalhas;</li>
+<li>Simulados e práticas: tentativas, respostas enviadas, pontuação, XP obtido,
+status da tentativa (em andamento, concluída, abandonada, expirada) e pausas
+realizadas;</li>
+<li>Minijogos (ex.: caça-palavras): tentativas, palavras encontradas e XP;</li>
+<li>Posição e pontuação no ranking;</li>
+<li>Contadores de uso necessários para aplicar cotas gratuitas (por exemplo, quantas
+tentativas de simulado ou partidas de minijogo você iniciou em um período).</li>
+</ul>
+<p>A contagem de <strong>visualizações de um baralho público</strong> é apenas um número
+agregado no baralho: não guardamos quem visualizou.</p>
+<h3>2.5. Economia virtual (carteira)</h3>
+<p>O GO tem uma economia interna com três moedas virtuais — <strong>Fichas, Vouchers e
+GoCoin</strong>. Ao criar a conta, sua carteira recebe um saldo inicial. Tratamos:</p>
+<ul>
+<li>Saldo atual de cada moeda;</li>
+<li><strong>Extrato de transações</strong> (ledger): cada crédito ou débito, com valor, moeda,
+motivo (ex.: concessão de cadastro, conclusão de missão, subida de nível,
+conquista de medalha, jogo de minigame, tentativa de simulado, pausa, compra na
+loja, aposta em desafio), referência à atividade que originou a transação e
+data/hora.</li>
+</ul>
+<p>Essas moedas <strong>não têm valor monetário</strong>, não são compradas com dinheiro real
+nem convertidas em dinheiro (ver seção 2.7 e os <a href="termos.html">Termos de Uso</a>).</p>
+<h3>2.6. Dados sociais</h3>
+<ul>
+<li>Amizades e pedidos de amizade (aceitos, pendentes, recusados);</li>
+<li>Desafios/partidas (matches): baralho usado, participantes, vencedor, resultado,
+XP em disputa e, quando houver aposta, a quantia de GoCoin apostada e sua
+liquidação (retenção, devolução ou pagamento ao vencedor).</li>
+</ul>
+<p>Ao aparecer no ranking ou nas listas de amigos, ficam visíveis a outros usuários
+o seu <strong>nome de exibição, nome de usuário, nível, ofensiva, XP e faixa (elo)</strong>.
+O saldo da sua carteira <strong>não</strong> é exibido a outros usuários.</p>
+<h3>2.7. Planos, recursos pagos e pagamento</h3>
+<ul>
+<li>O GO mantém um catálogo de planos (por exemplo, &quot;Free&quot; e &quot;Premium&quot;), a lista de
+benefícios exibida em cada plano, e registra qual plano está associado à sua
+conta, o status e a data de expiração.</li>
+<li>Algumas funções e vantagens são exclusivas do plano Premium; no plano gratuito
+elas aparecem bloqueadas ou reduzidas, com indicação de que são recursos
+Premium. Hoje são: <strong>importar/gerar baralho por CSV ou com o texto de IA</strong>, o
+<strong>calendário de estudo completo</strong>, as <strong>estatísticas detalhadas do perfil</strong>, o
+<strong>XP ilimitado no estudo de flashcards</strong> e a <strong>isenção do consumo de Fichas e
+Vouchers</strong> (minijogos, simulados e práticas sem cota). Para aplicar esses
+bloqueios, o servidor consulta o plano da sua conta a cada requisição
+protegida — não há criação de perfil comportamental nesse processo.</li>
+<li><strong>No momento, não há compra de plano nem de moedas virtuais com dinheiro real
+dentro do app.</strong> A tela de Assinatura é um catálogo com o botão &quot;Em breve&quot;; o
+aplicativo não embarca nenhuma biblioteca de compra e o servidor não tem
+nenhuma rotina de cobrança. Toda conta é criada no plano gratuito; eventuais
+contas Premium existentes foram atribuídas por nós manualmente, sem cobrança.
+As moedas virtuais só são obtidas por uso do app (concessão de cadastro,
+missões, medalhas, subida de nível e a loja interna, que troca GoCoin por
+Fichas/Vouchers).</li>
+<li>Caso planos pagos passem a ser oferecidos, a <strong>cobrança será processada pela
+Google Play</strong>. Nesse cenário, o GO <strong>não recebe nem armazena</strong> número de
+cartão, dados bancários ou credenciais de pagamento — apenas um
+identificador da compra/assinatura fornecido pela loja. Esta Política será
+atualizada antes de qualquer cobrança entrar em vigor.</li>
+</ul>
+<h3>2.8. Notificações push</h3>
+<ul>
+<li>Token do dispositivo (<strong>Firebase Cloud Messaging – FCM</strong>) e plataforma
+(Android, iOS ou web). Esse token é um <strong>identificador do seu aparelho</strong> e, como
+tal, é tratado como dado pessoal;</li>
+<li>Suas preferências de notificação (ofensiva, desafios, amigos).</li>
+</ul>
+<p>O token só é registrado depois de você autorizar as notificações no sistema
+operacional. Você pode revogar a autorização a qualquer momento nas configurações
+do aparelho, e desligar cada tipo de aviso nas configurações do app.</p>
+<h3>2.9. Feedback e suporte</h3>
+<p>Se você envia uma avaliação (nota de 1 a 5) ao fim de uma atividade, ou fala com
+o suporte pela tela de Configurações, tratamos:</p>
+<ul>
+<li>De onde veio o envio (formulário de suporte ou fim de uma atividade específica);</li>
+<li>Categoria (ex.: bug, sugestão, elogio, reclamação) ou nota enviada;</li>
+<li>Sua mensagem, quando escrever uma;</li>
+<li>A atividade a que o feedback se refere (ex.: um baralho, simulado, minijogo ou
+desafio específico), quando aplicável;</li>
+<li>Versão e plataforma do app no momento do envio;</li>
+<li>A vinculação à sua conta e a data/hora do envio.</li>
+</ul>
+<p>Usamos isso para dar suporte e melhorar o produto. Diferente dos demais dados
+desta seção, <strong>o feedback é mantido mesmo depois de você excluir sua conta</strong> —
+nesse caso, a referência ao seu usuário é apagada do registro (fica nula), de modo
+que o feedback deixa de estar associado a você, mas o conteúdo enviado
+(categoria, nota, mensagem, atividade, versão e plataforma) é preservado para
+histórico de produto (ver seção 8). <strong>Não é possível reverter esse vínculo depois
+da exclusão da conta</strong>, nem reidentificar o autor a partir do registro que
+permanece.</p>
+<h3>2.10. Dados técnicos coletados automaticamente</h3>
+<ul>
+<li>Endereço IP e dados de conexão (registros de servidor);</li>
+<li>Versão do aplicativo e plataforma/sistema operacional (enviados nos cabeçalhos
+<code>X-App-Version</code> / <code>X-App-Platform</code>);</li>
+<li>Data e hora das requisições;</li>
+<li>Registros (logs) de erro e de funcionamento, incluindo registros de execução de
+tarefas agendadas e de envio de notificações, para diagnóstico e segurança.</li>
+</ul>
+<h3>2.11. Dados armazenados no seu dispositivo</h3>
+<p>O aplicativo guarda localmente no seu aparelho (armazenamento do app) algumas
+informações para funcionar melhor, entre elas:</p>
+<ul>
+<li>preferências de estudo e de exibição (por exemplo, em quais níveis o furigana
+fica oculto);</li>
+<li>preferências de pronúncia (voz japonesa escolhida e velocidade da leitura);</li>
+<li>estado de notificações já vistas ou dispensadas;</li>
+<li>controle de quando o convite de avaliação já foi exibido, para não repetir;</li>
+<li>um registro temporário de XP de flashcards.</li>
+</ul>
+<p>Esses dados ficam no dispositivo, <strong>não são enviados ao nosso servidor</strong> e são
+apagados ao desinstalar o app.</p>
+<p>Arquivos CSV enviados para importar um baralho são processados de forma
+transitória na memória do servidor (as cartas são gravadas; o arquivo em si não
+é armazenado) e descartados ao fim da requisição.</p>
+<p>A leitura de palavras/frases em voz alta (pronúncia) usa o <strong>sintetizador de voz
+do próprio aparelho</strong>: nenhum áudio é gravado, e nada é enviado a nós ou a
+serviços de voz na nuvem. O app <strong>não usa o microfone</strong> nem pede permissão de
+áudio.</p>
+<p>O conteúdo de gramática (mapa de partículas) é material de referência embarcado
+no próprio aplicativo: consultá-lo não gera nenhuma requisição nem registro do
+que você leu.</p>
+<h3>2.12. O que o GO <strong>não</strong> coleta</h3>
+<p>Para evitar dúvida, hoje o aplicativo <strong>não</strong> coleta nem trata:</p>
+<ul>
+<li>identificador de publicidade do aparelho (Google Advertising ID) — não há SDK
+de anúncios instalado;</li>
+<li>dados de analytics comportamental ou relatórios automáticos de falha por
+terceiros — não há SDK de analytics nem de crash reporting instalado;</li>
+<li>localização (GPS ou aproximada), contatos, agenda, fotos da galeria, câmera,
+microfone, SMS ou lista de aplicativos instalados;</li>
+<li>dados pessoais sensíveis (art. 5º, II da LGPD), como origem racial ou étnica,
+convicção religiosa, opinião política, dado de saúde ou biométrico;</li>
+<li>dados de pagamento, cartão ou conta bancária.</li>
+</ul>
+<p>Se alguma dessas coletas passar a existir, esta Política será atualizada e
+avisada <strong>antes</strong> da mudança entrar em vigor.</p>
+<hr>
+<h2>3. Para que usamos os dados e com qual base legal</h2>
+<table>
+<thead>
+<tr>
+<th>Finalidade</th>
+<th>Exemplos</th>
+<th>Base legal (LGPD art. 7º / 11)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Criar e manter sua conta</td>
+<td>Autenticação, sincronização do perfil</td>
+<td>Execução de contrato (art. 7º, V)</td>
+</tr>
+<tr>
+<td>Fornecer as funções do app</td>
+<td>Baralhos, estudo, simulados, missões, ranking, amigos, desafios, minijogos</td>
+<td>Execução de contrato (art. 7º, V)</td>
+</tr>
+<tr>
+<td>Operar a economia virtual</td>
+<td>Manter a carteira e o extrato, aplicar cotas gratuitas, processar loja interna, apostas e pausas</td>
+<td>Execução de contrato (art. 7º, V)</td>
+</tr>
+<tr>
+<td>Enviar notificações push</td>
+<td>Lembrete de ofensiva, avisos de desafio e de amizade</td>
+<td>Consentimento (art. 7º, I), revogável nas configurações do app ou do sistema</td>
+</tr>
+<tr>
+<td>Gerir planos e controlar acesso a recursos Premium</td>
+<td>Registrar o plano da conta e a validade; verificar o plano a cada pedido de recurso bloqueado</td>
+<td>Execução de contrato (art. 7º, V)</td>
+</tr>
+<tr>
+<td>Moderar conteúdo público</td>
+<td>Analisar denúncias de baralhos, remover conteúdo que viole os Termos, registrar a decisão da moderação</td>
+<td>Legítimo interesse (art. 7º, IX) / exercício regular de direitos</td>
+</tr>
+<tr>
+<td>Segurança e prevenção a fraudes</td>
+<td>Logs, controle de versão mínima, combate a trapaça em XP, ranking e economia virtual</td>
+<td>Legítimo interesse (art. 7º, IX)</td>
+</tr>
+<tr>
+<td>Suporte ao usuário e melhoria do produto</td>
+<td>Responder solicitações, corrigir problemas, analisar feedback e avaliações</td>
+<td>Execução de contrato / legítimo interesse (art. 7º, IX)</td>
+</tr>
+<tr>
+<td>Cumprir obrigações legais</td>
+<td>Guarda de registros, resposta a autoridades</td>
+<td>Obrigação legal (art. 7º, II)</td>
+</tr>
+<tr>
+<td>Exercício de direitos em processo</td>
+<td>Defesa em demandas judiciais ou administrativas</td>
+<td>Art. 7º, VI</td>
+</tr>
+</tbody></table>
+<p>Não usamos seus dados para publicidade direcionada nem para criação de perfis
+comportamentais com fins de marketing — e, hoje, <strong>o aplicativo não exibe
+anúncios</strong> (ver seções 2.12 e 4.1).</p>
+<hr>
+<h2>4. Compartilhamento de dados</h2>
+<p>Não vendemos dados pessoais. O compartilhamento ocorre apenas nas hipóteses
+abaixo:</p>
+<h3>4.1. Provedores que operam a infraestrutura (operadores)</h3>
+<table>
+<thead>
+<tr>
+<th>Provedor</th>
+<th>Papel</th>
+<th>Dados envolvidos</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Google Cloud Platform</strong> (Cloud Run, Cloud SQL)</td>
+<td>Hospedagem do servidor e do banco de dados. Instâncias na região <code>southamerica-east1</code> (São Paulo, Brasil)</td>
+<td>Todos os dados de conta, conteúdo e uso</td>
+</tr>
+<tr>
+<td><strong>Firebase Authentication</strong> (Google)</td>
+<td>Autenticação, e-mail/senha e login Google</td>
+<td>E-mail, nome, foto, identificador da conta, senha (gerida pelo Firebase)</td>
+</tr>
+<tr>
+<td><strong>Firebase Cloud Messaging</strong> (Google)</td>
+<td>Entrega das notificações push</td>
+<td>Token do dispositivo, conteúdo da notificação</td>
+</tr>
+<tr>
+<td><strong>Google Sign-In</strong></td>
+<td>Login social</td>
+<td>Nome, e-mail, foto, ID da conta Google</td>
+</tr>
+<tr>
+<td><strong>Google Play Services / Firebase Installations</strong></td>
+<td>Base técnica exigida pelo Firebase no Android (entrega de push, integridade do SDK)</td>
+<td>Identificador técnico de instalação do app no aparelho</td>
+</tr>
+</tbody></table>
+<p>Esses provedores são operados pela <strong>Google LLC</strong> e por suas afiliadas, e podem
+tratar dados também nos Estados Unidos e em outros países (ver seção 6).</p>
+<p>Não há, hoje, nenhum outro operador ou subprocessador: o aplicativo não embarca
+SDK de anúncios, de analytics, de crash reporting nem de atribuição de marketing
+(ver seção 2.12).</p>
+<p>O <strong>painel administrativo interno</strong> usado por nós para moderação e suporte não é
+acessível ao público, não recebe visitantes externos e não coleta dados de quem
+não seja da equipe. Se isso mudar, esta Política será atualizada antes.</p>
+<h3>4.2. Loja de aplicativos</h3>
+<p><strong>Google Play</strong>, para distribuição do app e, caso planos pagos venham a ser
+oferecidos, para processamento da cobrança. O tratamento de dados pela loja
+segue a política de privacidade própria dela.</p>
+<h3>4.3. Outros usuários</h3>
+<p>Conforme descrito na seção 2, informações públicas do seu perfil (nome de
+exibição, nome de usuário, nível, XP, ofensiva, faixa de ranking), seus baralhos
+públicos e seus comentários ficam visíveis a outros usuários do GO.</p>
+<p>Outros usuários podem encontrar você <strong>pelo seu nome de usuário exato</strong> ao enviar
+um pedido de amizade — não é possível buscar por e-mail, nem navegar por uma lista
+de usuários.</p>
+<p><strong>Não</strong> são exibidos a outros usuários: seu e-mail, sua foto de perfil, o saldo da
+sua carteira, seu extrato de transações, seus baralhos privados, suas denúncias e
+seu feedback.</p>
+<h3>4.4. Autoridades e terceiros por exigência legal</h3>
+<p>Quando necessário para cumprir lei, ordem judicial ou requisição de autoridade
+competente, ou para exercer ou defender direitos.</p>
+<h3>4.5. Sucessão</h3>
+<p>Em caso de transferência do aplicativo a terceiros (venda, incorporação ou
+operação semelhante), os dados podem ser transferidos ao sucessor, mantido o
+compromisso com esta Política; você será informado previamente.</p>
+<hr>
+<h2>5. Inteligência artificial</h2>
+<p>O recurso de &quot;gerar baralho com IA&quot; <strong>não conecta o GO a nenhum serviço de
+inteligência artificial</strong>. O que acontece é o seguinte:</p>
+<ol>
+<li>Você preenche um formulário no app (tema do baralho, nível JLPT, quantidade de
+cartas, foco de vocabulário, estilo do conteúdo e quais campos incluir);</li>
+<li>Esses parâmetros são enviados ao <strong>nosso próprio servidor</strong>, que monta e
+devolve um <strong>texto de instrução (prompt)</strong> pronto;</li>
+<li>Você copia esse texto e o usa, por sua conta, na ferramenta de IA que quiser
+(por exemplo, ChatGPT, Gemini ou Claude);</li>
+<li>Você traz de volta o CSV gerado e o importa no GO.</li>
+</ol>
+<p><strong>Nenhum dado seu é enviado por nós a serviços de IA</strong> — nem o seu nome, e-mail,
+progresso ou conteúdo dos seus baralhos. Guardamos apenas o baralho e as cartas
+que você efetivamente importar. Os parâmetros do formulário são usados para
+montar o texto na hora e não compõem perfil seu.</p>
+<p>O uso que você faz da ferramenta de IA externa é seu, está sujeito às políticas
+dela, e o conteúdo que você colar lá é de sua responsabilidade.</p>
+<hr>
+<h2>6. Transferência internacional de dados</h2>
+<p>Os dados do GO são armazenados em servidores localizados no <strong>Brasil</strong>. No
+entanto, os serviços do Google/Firebase usados para autenticação e notificações
+podem realizar tratamento em <strong>outros países, inclusive nos Estados Unidos</strong>.</p>
+<p>Essas transferências ocorrem com base nas hipóteses do art. 33 da LGPD,
+especialmente cláusulas contratuais e garantias adotadas pelo Google para
+assegurar nível de proteção adequado. Ao usar o Serviço, você está ciente dessa
+transferência.</p>
+<hr>
+<h2>7. Segurança</h2>
+<p>Adotamos medidas técnicas e administrativas para proteger seus dados, entre elas:</p>
+<ul>
+<li>Tráfego criptografado (HTTPS/TLS) entre o app e o servidor;</li>
+<li>Autenticação por token (Firebase) em todas as requisições que acessam dados
+pessoais;</li>
+<li>Restrição de acesso ao banco de dados e à infraestrutura;</li>
+<li>Registros de acesso e monitoramento para detectar incidentes.</li>
+</ul>
+<p>Nenhum sistema é completamente seguro. Em caso de incidente de segurança que
+possa acarretar risco ou dano relevante, você e a Autoridade Nacional de Proteção
+de Dados (ANPD) serão comunicados, nos termos do art. 48 da LGPD.</p>
+<hr>
+<h2>8. Retenção e eliminação</h2>
+<ul>
+<li>Os dados de conta, conteúdo, progresso, carteira e extrato de transações são
+mantidos <strong>enquanto sua conta existir</strong>.</li>
+<li>Ao <strong>excluir sua conta</strong> (Configurações → Excluir conta), a exclusão é
+<strong>imediata e definitiva</strong> (não há período de carência nem possibilidade de
+recuperação). São apagados do banco de dados do GO os dados vinculados à conta
+— perfil, baralhos e cartas que você criou, sessões de estudo, calendário,
+missões, medalhas, ranking, amizades e pedidos de amizade, participações em
+desafios, tentativas de simulado e respostas, partidas de minijogo, denúncias
+que você enviou, tokens de notificação, carteira e extrato de moedas virtuais.
+A conta é removida <strong>também do Firebase Authentication</strong>. Saldos de moedas
+virtuais são perdidos e não são reembolsados.</li>
+<li><strong>Exceção 1 — feedback e avaliações:</strong> o feedback que você enviou <strong>não é
+apagado</strong>. A referência ao seu usuário é removida do registro (fica nula), e o
+conteúdo (categoria, nota, mensagem, atividade, versão e plataforma) é mantido
+de forma não identificada, para histórico de melhoria do produto. Ver seção 2.9.</li>
+<li><strong>Exceção 2 — desafios em que outra pessoa era a anfitriã:</strong> apagamos a sua
+participação e o seu resultado. O registro do desafio em si, criado pelo outro
+usuário, permanece no histórico <strong>dele</strong>, deixando de apontar para você
+(inclusive a indicação de vencedor, que passa a ficar vazia). Nenhum dado seu
+identificável permanece nesse registro.</li>
+<li><strong>Exceção 3 — conteúdo copiado por outros usuários:</strong> se alguém copiou
+(&quot;forkou&quot;) um baralho público seu antes da exclusão, a cópia pertence a essa
+pessoa e permanece na biblioteca dela.</li>
+<li>Registros técnicos (logs de servidor, incluindo IP e data/hora) são mantidos
+por período limitado para fins de segurança e diagnóstico e depois descartados
+ou anonimizados. <strong>Prazo: 6 (seis) meses</strong>, alinhado ao prazo de guarda de
+registros de conexão previsto no Marco Civil da Internet (Lei nº 12.965/2014,
+art. 13). Registros de acesso podem ser guardados por prazo diverso quando
+houver determinação de autoridade competente ou dever legal aplicável.</li>
+<li>Alguns dados podem ser retidos por prazo maior quando houver obrigação legal ou
+necessidade de defesa em processo, sendo eliminados ao fim desse período.</li>
+</ul>
+<hr>
+<h2>9. Seus direitos como titular</h2>
+<p>Nos termos do art. 18 da LGPD, você pode solicitar a qualquer momento:</p>
+<ol>
+<li>Confirmação da existência de tratamento;</li>
+<li>Acesso aos seus dados;</li>
+<li>Correção de dados incompletos, inexatos ou desatualizados;</li>
+<li>Anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em
+desconformidade com a lei;</li>
+<li>Portabilidade dos dados a outro fornecedor, mediante requisição expressa;</li>
+<li>Eliminação dos dados tratados com base no seu consentimento;</li>
+<li>Informação sobre com quem compartilhamos seus dados;</li>
+<li>Informação sobre a possibilidade de não fornecer consentimento e suas
+consequências;</li>
+<li>Revogação do consentimento.</li>
+</ol>
+<p><strong>Como exercer:</strong></p>
+<ul>
+<li>Diretamente no app: alterar nome e preferências em Configurações; ver e corrigir
+os dados do seu perfil; desligar notificações; excluir a conta em Configurações
+→ Excluir conta (exclusão imediata e definitiva — ver seção 8).</li>
+<li>Pelos demais pedidos, escreva para <strong><a href="mailto:mariolodev@gmail.com">mariolodev@gmail.com</a></strong>. Podemos solicitar
+informações para confirmar sua identidade antes de atender.</li>
+</ul>
+<p><strong>Prazos de resposta:</strong></p>
+<ul>
+<li>Confirmação de que tratamos seus dados e acesso simplificado: <strong>imediatamente</strong>
+ou, quando não for possível, em até <strong>15 (quinze) dias</strong> do pedido (art. 19 da
+LGPD);</li>
+<li>Declaração completa de tratamento, correção, eliminação, anonimização,
+portabilidade e informação sobre compartilhamento: em até <strong>15 (quinze) dias</strong>;</li>
+<li>Pedidos que exijam medidas técnicas maiores podem levar mais tempo; nesse caso
+avisaremos você dentro do prazo acima, com a justificativa e a nova estimativa.</li>
+</ul>
+<p><strong>Portabilidade:</strong> mediante pedido, entregamos os dados da sua conta em formato
+estruturado e legível por máquina (por exemplo, JSON ou CSV). Isso é feito hoje de
+forma manual, a partir do pedido enviado pelo e-mail acima — ainda não existe um
+botão de exportação dentro do aplicativo.</p>
+<p>Você também pode apresentar reclamação à <strong>ANPD</strong> (<a href="https://www.gov.br/anpd">https://www.gov.br/anpd</a>).</p>
+<hr>
+<h2>10. Crianças e adolescentes</h2>
+<p>O GO é destinado a pessoas com <strong>13 anos ou mais</strong>.</p>
+<ul>
+<li>Pessoas com menos de 13 anos não devem criar conta nem usar o Serviço.</li>
+<li>Usuários entre 13 e 18 anos devem usar o Serviço com o <strong>consentimento e a
+supervisão dos pais ou responsáveis legais</strong>.</li>
+</ul>
+<p>Não coletamos intencionalmente dados de crianças com menos de 13 anos. Se
+tomarmos conhecimento de que uma conta foi criada por uma criança abaixo dessa
+idade, ela será removida. Pais ou responsáveis que identifiquem o uso do app por
+um menor sob sua responsabilidade e queiram revisar, corrigir ou excluir os dados
+podem escrever para <strong><a href="mailto:mariolodev@gmail.com">mariolodev@gmail.com</a></strong>.</p>
+<hr>
+<h2>11. Decisões automatizadas</h2>
+<p>Funções como cálculo de XP e de ofensiva, posição no ranking, concessão de
+medalhas e de recompensas em moeda, correção automática de simulados,
+embaralhamento das alternativas, aplicação de cotas gratuitas, verificação
+automática do seu plano para liberar ou bloquear recursos Premium e liquidação de
+apostas em desafios são processadas automaticamente. Essas operações têm caráter
+lúdico e educacional e <strong>não produzem efeitos jurídicos</strong> nem afetam interesses de
+forma significativa. Ainda assim, você pode solicitar revisão ou esclarecimentos
+pelo canal de contato.</p>
+<hr>
+<h2>12. Cookies</h2>
+<p>O aplicativo GO <strong>não usa cookies de navegador</strong> e <strong>não usa cookies de
+publicidade ou de rastreamento entre aplicativos</strong>. Utiliza o armazenamento local
+do dispositivo (descrito na seção 2.11) e identificadores técnicos do Firebase
+necessários para autenticação e notificações.</p>
+<p>Não há, hoje, site ou área web voltada ao usuário final além desta página de
+transparência legal — por isso não existe banner de consentimento de cookies. Se
+publicarmos um site que colete dados de visitantes, esta seção será revista
+antes.</p>
+<hr>
+<h2>13. Alterações desta Política</h2>
+<p>Podemos atualizar esta Política a qualquer momento. Mudanças relevantes serão
+comunicadas pelo aplicativo ou por e-mail antes de entrarem em vigor. A data de
+&quot;Última atualização&quot; no topo indica a versão vigente. O uso continuado do
+Serviço após a atualização representa concordância com a versão revisada.</p>
+<p>A versão vigente fica publicada nesta própria página e é acessível pelo próprio
+aplicativo.</p>
+<hr>
+<h2>14. Contato</h2>
+<p>Dúvidas, solicitações ou reclamações sobre esta Política ou sobre o tratamento
+dos seus dados:</p>
+<ul>
+<li><strong>Mario Florense Gonçalves Lô</strong></li>
+<li>E-mail: <strong><a href="mailto:mariolodev@gmail.com">mariolodev@gmail.com</a></strong></li>
+<li>Jaguariúna, São Paulo, Brasil</li>
+</ul>
+
+<footer class="legal-footer">
+  GO 語 — documento legal publicado para fins de transparência e conformidade com as lojas de aplicativos (Google Play).
+</footer>
+</div>
+</body>
+</html>
