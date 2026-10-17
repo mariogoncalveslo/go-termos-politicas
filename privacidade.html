@@ -71,13 +71,15 @@ footer.legal-footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid
   </nav>
 </header>
 <h1>Política de Privacidade — GO</h1>
-<p><strong>Última atualização:</strong> 4 de outubro de 2026
-<strong>Vigência:</strong> a partir de 4 de outubro de 2026</p>
+<p><strong>Última atualização:</strong> 17 de outubro de 2026
+<strong>Vigência:</strong> a partir de 17 de outubro de 2026</p>
 <p>Esta Política de Privacidade descreve como são coletados, usados, compartilhados e
 protegidos os dados pessoais dos usuários do aplicativo <strong>GO語 (&quot;GO&quot;, &quot;aplicativo&quot;
 ou &quot;Serviço&quot;)</strong>, um aplicativo de estudo de língua japonesa (preparação para o
 JLPT) com flashcards, missões, ranking, amigos, desafios, minijogos, simulados,
-material de gramática e uma economia interna de moedas virtuais.</p>
+estudo dos alfabetos, material de gramática, uma economia interna de moedas
+virtuais, anúncios de terceiros e um plano pago opcional (Premium), contratado
+como assinatura pela Google Play.</p>
 <p>Ao criar uma conta ou usar o GO, você declara que leu e compreendeu esta Política.
 O uso do Serviço também está sujeito aos <a href="termos.html">Termos de Uso</a>.</p>
 <hr>
@@ -156,8 +158,9 @@ usuários.</li>
 </ul>
 <p>Baralhos marcados como <strong>públicos</strong> e os comentários associados ficam visíveis a
 outros usuários do GO. Nos comentários é exibido o seu <strong>nome de usuário</strong>
-(@username). Em baralhos públicos copiados (&quot;fork&quot;), fica registrado o nome de
-usuário de quem publicou o baralho de origem.</p>
+(@username). Em baralhos públicos copiados (&quot;fork&quot;), ficam registrados o nome de
+usuário de quem publicou o baralho de origem e a referência ao baralho de origem
+(usada para que a mesma pessoa não copie o mesmo baralho duas vezes).</p>
 <h3>2.4. Dados de uso, progresso e desempenho</h3>
 <ul>
 <li>XP, nível, ofensiva diária (streak) e ofensiva máxima;</li>
@@ -168,9 +171,33 @@ estudados);</li>
 status da tentativa (em andamento, concluída, abandonada, expirada) e pausas
 realizadas;</li>
 <li>Minijogos (ex.: caça-palavras): tentativas, palavras encontradas e XP;</li>
-<li>Alfabeto (hiragana/katakana): progresso de cada caractere no modo Praticar, e dados
-do teste de nivelamento inicial — tentativas, resposta a cada item, nível de estudo e
-autoavaliação informados por você, e o resultado (quais sílabas você já domina);</li>
+<li>Prática do alfabeto (hiragana e katakana, inclusive as variantes — marcas e
+compostos): para cada kana, o número de acertos e de erros, a pontuação de
+domínio e a data do último avanço, além de quais linhas do silabário e quantas
+etapas da trilha de variantes já estão liberadas para você. A data do último
+avanço é o <strong>dia do calendário do seu aparelho</strong> (no formato ano-mês-dia), usada
+só para saber se um avanço aconteceu em dia diferente do anterior; <strong>não
+guardamos o seu fuso horário nem a sua localização</strong>;</li>
+<li>XP da prática do alfabeto: cada acerto na prática pode render XP, que entra no
+seu XP total como o das demais atividades (e, por consequência, no nível, no
+ranking e na ofensiva). Para isso guardamos, <strong>para cada kana</strong>, o XP total
+obtido com ele, o XP obtido no dia e a data a que esse XP do dia se refere.
+Esse &quot;dia&quot; é o dia do calendário de São Paulo (horário de Brasília) calculado
+pelo nosso servidor — não depende do relógio do seu aparelho. No plano
+gratuito há um <strong>limite diário</strong> de XP nessa atividade; no plano Premium esse
+limite não se aplica (ver seção 2.7). Esses registros servem para calcular o
+XP, aplicar o limite e corrigir ou reverter XP obtido em desacordo com os
+<a href="termos.html">Termos de Uso</a>. A prática do alfabeto não credita moedas
+virtuais diretamente; o XP que ela gera conta para a subida de nível, que pode
+render moedas como qualquer outro XP (seção 2.5);</li>
+<li>Teste de nivelamento do alfabeto: a sua resposta ao convite do teste (por
+exemplo, se preferiu fazê-lo, dispensá-lo ou declarar que já conhece os kana),
+o nível de estudo que você declarou e a autoavaliação informada, as respostas
+dadas a cada item (kana mostrado, opções, opção escolhida ou &quot;não sei&quot;, se
+acertou e quando respondeu), o resultado, quais linhas do silabário foram
+liberadas por ele e as datas de início e término — esta última usada também
+para limitar quantas vezes o teste pode ser refeito. Ao concluir o teste, você
+recebe uma quantia fixa de XP e o dia conta para a ofensiva;</li>
 <li>Posição e pontuação no ranking;</li>
 <li>Contadores de uso necessários para aplicar cotas gratuitas (por exemplo, quantas
 tentativas de simulado ou partidas de minijogo você iniciou em um período).</li>
@@ -199,34 +226,70 @@ liquidação (retenção, devolução ou pagamento ao vencedor).</li>
 </ul>
 <p>Ao aparecer no ranking ou nas listas de amigos, ficam visíveis a outros usuários
 o seu <strong>nome de exibição, nome de usuário, nível, ofensiva, XP e faixa (elo)</strong>.
-O saldo da sua carteira <strong>não</strong> é exibido a outros usuários.</p>
-<h3>2.7. Planos, recursos pagos e pagamento</h3>
+O XP exibido é o total (ou o do período do ranking), somando todas as
+atividades, inclusive a prática do alfabeto; <strong>não</strong> é exibido a outros usuários
+de qual atividade veio o XP, nem o seu progresso ou XP por kana, nem o resultado
+do teste de nivelamento. O saldo da sua carteira e o seu plano (gratuito ou
+Premium) <strong>não</strong> são exibidos a outros usuários.</p>
+<h3>2.7. Planos, assinatura Premium e pagamento</h3>
 <ul>
 <li>O GO mantém um catálogo de planos (por exemplo, &quot;Free&quot; e &quot;Premium&quot;), a lista de
 benefícios exibida em cada plano, e registra qual plano está associado à sua
-conta, o status e a data de expiração.</li>
+conta e até quando o Premium vale (data de expiração).</li>
 <li>Algumas funções e vantagens são exclusivas do plano Premium; no plano gratuito
 elas aparecem bloqueadas ou reduzidas, com indicação de que são recursos
 Premium. Hoje são: <strong>importar/gerar baralho por CSV ou com o texto de IA</strong>, o
 <strong>calendário de estudo completo</strong>, as <strong>estatísticas detalhadas do perfil</strong>, o
-<strong>XP ilimitado no estudo de flashcards</strong> e a <strong>isenção do consumo de Fichas e
-Vouchers</strong> (minijogos, simulados e práticas sem cota). Para aplicar esses
+<strong>XP ilimitado no estudo de flashcards</strong>, o <strong>XP sem o limite diário na prática
+do alfabeto</strong>, <strong>simulados, práticas e minijogos sem cota</strong> (sem gastar Voucher,
+Ficha ou GoCoin para iniciá-los) e a <strong>ausência de anúncios</strong>. Para aplicar esses
 bloqueios, o servidor consulta o plano da sua conta a cada requisição
 protegida — não há criação de perfil comportamental nesse processo.</li>
-<li><strong>No momento, não há compra de plano nem de moedas virtuais com dinheiro real
-dentro do app.</strong> A tela de Assinatura é um catálogo com o botão &quot;Em breve&quot;; o
-aplicativo não embarca nenhuma biblioteca de compra e o servidor não tem
-nenhuma rotina de cobrança. Toda conta é criada no plano gratuito; eventuais
-contas Premium existentes foram atribuídas por nós manualmente, sem cobrança.
-As moedas virtuais só são obtidas por uso do app (concessão de cadastro,
-missões, medalhas, subida de nível e a loja interna, que troca GoCoin por
-Fichas/Vouchers).</li>
-<li>Caso planos pagos passem a ser oferecidos, a <strong>cobrança será processada pela
-Google Play</strong>. Nesse cenário, o GO <strong>não recebe nem armazena</strong> número de
-cartão, dados bancários ou credenciais de pagamento — apenas um
-identificador da compra/assinatura fornecido pela loja. Esta Política será
-atualizada antes de qualquer cobrança entrar em vigor.</li>
 </ul>
+<p><strong>Assinatura paga pela Google Play.</strong> O Premium pode ser contratado dentro do
+app como assinatura cobrada pela Google Play. Quando você assina ou usa
+&quot;Restaurar compra&quot;, a Google Play entrega ao app um <strong>identificador da compra</strong>
+(purchase token); o app o envia ao nosso servidor, que consulta a API da Google
+Play para confirmar a compra e a situação da assinatura. Guardamos, vinculados
+à sua conta:</p>
+<ul>
+<li>o identificador da compra fornecido pela Google Play e, em trocas de plano, o
+identificador da compra anterior que ela substitui;</li>
+<li>o produto, o período contratado (por exemplo, mensal ou anual), a oferta
+aplicada, se houver, e o plano GO correspondente;</li>
+<li>a situação da assinatura (por exemplo: pagamento pendente, ativa, em
+carência, suspensa, pausada, cancelada, expirada ou reembolsada/revogada), se
+ela renova automaticamente, e as datas de início e de expiração do período
+vigente;</li>
+<li>o número do último pedido na Google Play;</li>
+<li>quando a compra foi confirmada junto à Google Play e quando a verificamos
+pela última vez;</li>
+<li>se é uma compra de teste (feita por testadores autorizados na Google Play);</li>
+<li>um histórico de eventos da assinatura (compra, renovação, cancelamento,
+expiração, reembolso, falhas de verificação), com data/hora, situação antes e
+depois e a origem do evento (o app, a verificação periódica do servidor, um
+aviso da Google Play ou uma correção manual).</li>
+</ul>
+<p>Também podemos receber <strong>avisos automáticos da Google Play</strong> sobre mudanças em
+assinaturas (renovação, cancelamento, suspensão etc.). Cada aviso recebido é
+registrado com o seu identificador e o seu conteúdo — tipo de evento, data/hora,
+produto e o identificador da compra — e serve apenas para disparar uma nova
+consulta à Google Play; esse registro não guarda o seu nome, e-mail nem o
+identificador da sua conta GO (ver seção 8 sobre o que acontece com ele quando a
+conta é excluída).</p>
+<p>O GO <strong>não recebe nem armazena</strong> número de cartão, dados bancários, endereço de
+cobrança ou credenciais de pagamento: o pagamento é feito na Google Play (seção
+4.2). O app também <strong>não envia à Google Play</strong> o seu nome, e-mail ou o
+identificador da sua conta GO para processar a compra.</p>
+<p>Usamos esses dados para liberar e encerrar o Premium conforme a situação da
+assinatura, permitir restaurar a compra em outro aparelho, atender pedidos de
+cancelamento, reembolso e suporte, e prevenir fraude (por exemplo, impedir que a
+mesma compra seja usada em duas contas GO).</p>
+<p>Podemos ainda conceder Premium sem cobrança (por exemplo, a testadores ou como
+cortesia); nesse caso registramos apenas o plano e a validade na sua conta, sem
+dados de compra. As moedas virtuais <strong>não</strong> são vendidas: só são obtidas por uso
+do app (concessão de cadastro, missões, medalhas, subida de nível, anúncio
+recompensado e a loja interna, que troca GoCoin por Fichas/Vouchers).</p>
 <h3>2.8. Anúncios (publicidade)</h3>
 <p>O GO exibe anúncios de terceiros fornecidos pela rede <strong>Google AdMob</strong> (Google),
 em três formatos: banner (faixa fixa em parte das telas), intersticial (tela
@@ -248,9 +311,12 @@ personalização desses anúncios diretamente nas configurações de anúncios d
 aparelho Android (Configurações → Google → Anúncios → &quot;Desativar
 personalização de anúncios&quot;), o que vale para todos os apps que usam o Google
 Mobile Ads, incluindo o GO.</p>
-<p>Quando você assiste a um anúncio recompensado até o fim e a recompensa é
-creditada, isso gera um registro na sua carteira igual a qualquer outra
-transação (seção 2.5).</p>
+<p>Para aplicar as cotas e os intervalos do anúncio recompensado, registramos cada
+pedido de recompensa feito por você: a categoria e o ponto do app em que foi
+pedido, a recompensa prevista, a situação (pendente, creditada ou expirada) e as
+datas de criação e de crédito. Quando você assiste a um anúncio recompensado até
+o fim e a recompensa é creditada, isso gera também um registro na sua carteira
+igual a qualquer outra transação (seção 2.5).</p>
 <h3>2.9. Notificações push</h3>
 <ul>
 <li>Token do dispositivo (<strong>Firebase Cloud Messaging – FCM</strong>) e plataforma
@@ -299,10 +365,18 @@ fica oculto);</li>
 <li>preferências de pronúncia (voz japonesa escolhida e velocidade da leitura);</li>
 <li>estado de notificações já vistas ou dispensadas;</li>
 <li>controle de quando o convite de avaliação já foi exibido, para não repetir;</li>
-<li>um registro temporário de XP de flashcards.</li>
+<li>um registro temporário de XP de flashcards;</li>
+<li>contadores de frequência dos anúncios intersticiais (para respeitar o
+intervalo mínimo entre eles);</li>
+<li>filas temporárias de envio — pedidos de recompensa por anúncio e compras de
+assinatura ainda não confirmados pelo servidor (com o identificador da compra
+fornecido pela Google Play) —, que guardam a operação até o servidor
+confirmá-la e então são limpas.</li>
 </ul>
-<p>Esses dados ficam no dispositivo, <strong>não são enviados ao nosso servidor</strong> e são
-apagados ao desinstalar o app.</p>
+<p>Esses dados ficam no dispositivo e são apagados ao desinstalar o app. Com
+exceção das filas temporárias de envio — cujo conteúdo é justamente o que será
+enviado ao nosso servidor, como descrito nas demais seções —, eles <strong>não são
+enviados a nós</strong>.</p>
 <p>Arquivos CSV enviados para importar um baralho são processados de forma
 transitória na memória do servidor (as cartas são gravadas; o arquivo em si não
 é armazenado) e descartados ao fim da requisição.</p>
@@ -322,7 +396,9 @@ terceiros — não há SDK de analytics nem de crash reporting instalado;</li>
 microfone, SMS ou lista de aplicativos instalados;</li>
 <li>dados pessoais sensíveis (art. 5º, II da LGPD), como origem racial ou étnica,
 convicção religiosa, opinião política, dado de saúde ou biométrico;</li>
-<li>dados de pagamento, cartão ou conta bancária.</li>
+<li>dados de pagamento, cartão ou conta bancária — o pagamento da assinatura é
+feito na Google Play, e recebemos apenas as informações da compra descritas na
+seção 2.7.</li>
 </ul>
 <p>Se alguma dessas coletas passar a existir, esta Política será atualizada e
 avisada <strong>antes</strong> da mudança entrar em vigor.</p>
@@ -343,7 +419,7 @@ avisada <strong>antes</strong> da mudança entrar em vigor.</p>
 </tr>
 <tr>
 <td>Fornecer as funções do app</td>
-<td>Baralhos, estudo, simulados, missões, ranking, amigos, desafios, minijogos</td>
+<td>Baralhos, estudo, simulados, missões, ranking, amigos, desafios, minijogos, prática e teste de nivelamento do alfabeto (inclusive o cálculo do XP por kana e a aplicação do limite diário de XP do plano gratuito)</td>
 <td>Execução de contrato (art. 7º, V)</td>
 </tr>
 <tr>
@@ -357,9 +433,14 @@ avisada <strong>antes</strong> da mudança entrar em vigor.</p>
 <td>Consentimento (art. 7º, I), revogável nas configurações do app ou do sistema</td>
 </tr>
 <tr>
-<td>Gerir planos e controlar acesso a recursos Premium</td>
-<td>Registrar o plano da conta e a validade; verificar o plano a cada pedido de recurso bloqueado</td>
+<td>Vender e gerir a assinatura Premium e controlar o acesso a recursos Premium</td>
+<td>Confirmar a compra e a situação da assinatura junto à Google Play; registrar o plano da conta e a validade; restaurar compras; verificar o plano a cada pedido de recurso bloqueado; encerrar o Premium em caso de cancelamento, expiração, reembolso ou estorno; atender pedidos de arrependimento e reembolso</td>
 <td>Execução de contrato (art. 7º, V)</td>
+</tr>
+<tr>
+<td>Auditoria de pagamentos e prevenção a fraude na assinatura</td>
+<td>Histórico de eventos da assinatura; registro dos avisos automáticos da Google Play; impedir que a mesma compra seja usada em duas contas GO; marcar compras de teste</td>
+<td>Legítimo interesse (art. 7º, IX) e exercício regular de direitos (art. 7º, VI)</td>
 </tr>
 <tr>
 <td>Moderar conteúdo público</td>
@@ -439,19 +520,31 @@ abaixo:</p>
 <td>Exibição de anúncios de terceiros (banner, intersticial, recompensado) e medição</td>
 <td>Identificador de Publicidade (GAID/AAID), dados técnicos do dispositivo e da rede, interações com o anúncio</td>
 </tr>
+<tr>
+<td><strong>Google Cloud Pub/Sub</strong> (Google)</td>
+<td>Entrega, ao nosso servidor, dos avisos automáticos da Google Play sobre mudanças em assinaturas</td>
+<td>Identificador da compra, produto, tipo de evento e data/hora (seção 2.7)</td>
+</tr>
 </tbody></table>
 <p>Esses provedores são operados pela <strong>Google LLC</strong> e por suas afiliadas, e podem
 tratar dados também nos Estados Unidos e em outros países (ver seção 6).</p>
-<p>Além do Google AdMob (anúncios, acima), não há, hoje, nenhum outro operador ou
-subprocessador: o aplicativo não embarca SDK de analytics, de crash reporting
-nem de atribuição de marketing (ver seção 2.13).</p>
+<p>Além dos provedores listados acima e da Google Play (seção 4.2), não há, hoje,
+nenhum outro operador ou subprocessador: o aplicativo não embarca SDK de
+analytics, de crash reporting nem de atribuição de marketing (ver seção 2.13).</p>
 <p>O <strong>painel administrativo interno</strong> usado por nós para moderação e suporte não é
 acessível ao público, não recebe visitantes externos e não coleta dados de quem
 não seja da equipe. Se isso mudar, esta Política será atualizada antes.</p>
-<h3>4.2. Loja de aplicativos</h3>
-<p><strong>Google Play</strong>, para distribuição do app e, caso planos pagos venham a ser
-oferecidos, para processamento da cobrança. O tratamento de dados pela loja
-segue a política de privacidade própria dela.</p>
+<h3>4.2. Loja de aplicativos e pagamento da assinatura</h3>
+<p><strong>Google Play</strong>, para distribuição do app e para a contratação e a cobrança da
+assinatura Premium. Quando você assina, o pagamento é feito diretamente na
+Google Play, que trata os seus dados de pagamento (meio de pagamento, dados de
+cobrança, histórico de pedidos) por conta própria, conforme os termos e a
+política de privacidade do Google — o GO não tem acesso a esses dados.</p>
+<p>Na direção inversa, a Google Play nos fornece — pelo app, pela consulta que o
+nosso servidor faz à API da Google Play e pelos avisos automáticos dela — as
+informações da compra descritas na seção 2.7. Para fazer essa consulta, o nosso
+servidor envia à Google Play apenas o identificador da compra e o produto; o
+app não envia à Google Play o seu nome, e-mail ou o identificador da sua conta GO.</p>
 <h3>4.3. Outros usuários</h3>
 <p>Conforme descrito na seção 2, informações públicas do seu perfil (nome de
 exibição, nome de usuário, nível, XP, ofensiva, faixa de ranking), seus baralhos
@@ -460,8 +553,9 @@ públicos e seus comentários ficam visíveis a outros usuários do GO.</p>
 um pedido de amizade — não é possível buscar por e-mail, nem navegar por uma lista
 de usuários.</p>
 <p><strong>Não</strong> são exibidos a outros usuários: seu e-mail, sua foto de perfil, o saldo da
-sua carteira, seu extrato de transações, seus baralhos privados, suas denúncias e
-seu feedback.</p>
+sua carteira, seu extrato de transações, seus baralhos privados, suas denúncias,
+seu feedback, seu progresso e XP por kana na prática do alfabeto, o resultado do
+seu teste de nivelamento, o seu plano e os dados da sua assinatura.</p>
 <h3>4.4. Autoridades e terceiros por exigência legal</h3>
 <p>Quando necessário para cumprir lei, ordem judicial ou requisição de autoridade
 competente, ou para exercer ou defender direitos.</p>
@@ -491,8 +585,10 @@ dela, e o conteúdo que você colar lá é de sua responsabilidade.</p>
 <hr>
 <h2>6. Transferência internacional de dados</h2>
 <p>Os dados do GO são armazenados em servidores localizados no <strong>Brasil</strong>. No
-entanto, os serviços do Google/Firebase usados para autenticação e notificações
-podem realizar tratamento em <strong>outros países, inclusive nos Estados Unidos</strong>.</p>
+entanto, os serviços do Google usados para autenticação, notificações, anúncios
+(Google AdMob), entrega dos avisos da Google Play (Pub/Sub) e cobrança da
+assinatura (Google Play) podem realizar tratamento em <strong>outros países,
+inclusive nos Estados Unidos</strong>.</p>
 <p>Essas transferências ocorrem com base nas hipóteses do art. 33 da LGPD,
 especialmente cláusulas contratuais e garantias adotadas pelo Google para
 assegurar nível de proteção adequado. Ao usar o Serviço, você está ciente dessa
@@ -523,10 +619,18 @@ mantidos <strong>enquanto sua conta existir</strong>.</li>
 recuperação). São apagados do banco de dados do GO os dados vinculados à conta
 — perfil, baralhos e cartas que você criou, sessões de estudo, calendário,
 missões, medalhas, ranking, amizades e pedidos de amizade, participações em
-desafios, tentativas de simulado e respostas, partidas de minijogo, denúncias
-que você enviou, tokens de notificação, carteira e extrato de moedas virtuais.
-A conta é removida <strong>também do Firebase Authentication</strong>. Saldos de moedas
-virtuais são perdidos e não são reembolsados.</li>
+desafios, tentativas de simulado e respostas, partidas de minijogo, progresso
+e XP por kana na prática do alfabeto, tentativas e respostas do teste de
+nivelamento do alfabeto, registros de recompensa por anúncio, denúncias que você
+enviou, tokens de notificação, carteira e extrato de moedas virtuais, e os dados
+da assinatura Premium vinculados à conta (identificador da compra, plano,
+situação, validade, número do pedido e histórico de eventos da compra). A conta
+é removida <strong>também do Firebase Authentication</strong>. Saldos de moedas virtuais são
+perdidos e não são reembolsados.</li>
+<li><strong>Assinatura ativa:</strong> excluir a conta <strong>não cancela</strong> a assinatura na Google
+Play — a cobrança continua até você cancelar lá (ver os
+<a href="termos.html">Termos de Uso</a>, seções 8.5 e 12.1). A Google Play mantém os
+próprios registros dos seus pedidos e pagamentos, conforme a política do Google.</li>
 <li><strong>Exceção 1 — feedback e avaliações:</strong> o feedback que você enviou <strong>não é
 apagado</strong>. A referência ao seu usuário é removida do registro (fica nula), e o
 conteúdo (categoria, nota, mensagem, atividade, versão e plataforma) é mantido
@@ -538,7 +642,17 @@ usuário, permanece no histórico <strong>dele</strong>, deixando de apontar par
 identificável permanece nesse registro.</li>
 <li><strong>Exceção 3 — conteúdo copiado por outros usuários:</strong> se alguém copiou
 (&quot;forkou&quot;) um baralho público seu antes da exclusão, a cópia pertence a essa
-pessoa e permanece na biblioteca dela.</li>
+pessoa e permanece na biblioteca dela — <strong>inclusive com o seu nome de usuário
+(@username) registrado como autor do baralho de origem</strong>, que é gravado na cópia
+no momento em que ela é feita (seção 2.3).</li>
+<li><strong>Exceção 4 — avisos automáticos da Google Play:</strong> os registros dos avisos
+automáticos sobre assinaturas (seção 2.7) não são apagados com a conta, porque
+não guardam o seu nome, e-mail nem o identificador da sua conta GO. Eles contêm
+o identificador da compra; depois da exclusão, como os dados da assinatura
+vinculados à conta são apagados, esses registros deixam de poder ser associados
+a você a partir do nosso banco de dados. São mantidos como trilha de auditoria
+de pagamentos, pelo tempo necessário a essa finalidade e ao exercício de
+direitos em eventuais disputas de cobrança, e depois eliminados.</li>
 <li>Registros técnicos (logs de servidor, incluindo IP e data/hora) são mantidos
 por período limitado para fins de segurança e diagnóstico e depois descartados
 ou anonimizados. <strong>Prazo: 6 (seis) meses</strong>, alinhado ao prazo de guarda de
@@ -600,16 +714,25 @@ tomarmos conhecimento de que uma conta foi criada por uma criança abaixo dessa
 idade, ela será removida. Pais ou responsáveis que identifiquem o uso do app por
 um menor sob sua responsabilidade e queiram revisar, corrigir ou excluir os dados
 podem escrever para <strong><a href="mailto:mariolodev@gmail.com">mariolodev@gmail.com</a></strong>.</p>
+<p>A assinatura Premium é paga: menores de 18 anos só devem contratá-la com
+autorização e por intermédio dos pais ou responsáveis. A Google Play oferece
+controles parentais e aprovação de compras para contas familiares.</p>
 <hr>
 <h2>11. Decisões automatizadas</h2>
 <p>Funções como cálculo de XP e de ofensiva, posição no ranking, concessão de
 medalhas e de recompensas em moeda, correção automática de simulados,
-embaralhamento das alternativas, aplicação de cotas gratuitas, verificação
-automática do seu plano para liberar ou bloquear recursos Premium e liquidação de
-apostas em desafios são processadas automaticamente. Essas operações têm caráter
-lúdico e educacional e <strong>não produzem efeitos jurídicos</strong> nem afetam interesses de
-forma significativa. Ainda assim, você pode solicitar revisão ou esclarecimentos
-pelo canal de contato.</p>
+embaralhamento das alternativas, aplicação de cotas gratuitas e do limite diário
+de XP da prática do alfabeto, e liquidação de apostas em desafios são processadas
+automaticamente. Essas operações têm caráter lúdico e educacional e <strong>não
+produzem efeitos jurídicos</strong> nem afetam interesses de forma significativa.</p>
+<p>A liberação e o encerramento do <strong>Premium</strong> também são automáticos: seguem a
+situação da assinatura informada pela Google Play (ativa, em carência, suspensa,
+cancelada, expirada, reembolsada ou estornada), e o servidor verifica o seu
+plano a cada pedido de recurso Premium. Como a assinatura é paga, se você
+entender que o Premium foi encerrado ou não foi liberado por erro, peça a revisão
+pelo canal de contato (art. 20 da LGPD).</p>
+<p>Em qualquer dos casos acima, você pode solicitar revisão ou esclarecimentos pelo
+canal de contato.</p>
 <hr>
 <h2>12. Cookies</h2>
 <p>O aplicativo GO <strong>não usa cookies de navegador</strong> — não há site ou área web
